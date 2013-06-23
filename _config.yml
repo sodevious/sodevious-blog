@@ -1,0 +1,4 @@
+name: sodevious.me
+pygments: true
+timezine: America/New_York
+permalink: /:year/:title
