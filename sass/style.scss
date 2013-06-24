@@ -1,0 +1,343 @@
+/*
+* Copyright 2013, Nicole Dominguez
+* Tools used: Skeleton, Github, Adobe Creative Cloud, Sublime Text 2
+*/
+
+// * { background: rgba(255,255,255,0.1);}
+
+// Variables
+$offWhite: #e3e3e3;
+$offBlack: #1a1a1a;
+$purple: #2f2b3f;
+$teal: #79b7b0;
+
+$gutter: 25px;
+
+$sans-serif: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+$serif: 'Bitter', Copse, Cambria, Georgia, serif;
+
+@import 'layout.scss';
+@import 'bourbon/bourbon';
+
+// Basics
+body {
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	background: $purple;
+	color: $offWhite;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+	color: $teal;
+	font-weight: normal; 
+	font-family: $sans-serif;
+	letter-spacing: -0.04em;
+	font-weight: 300;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { 
+	font-size: 115px; line-height: 60px; margin-bottom: 16px; 
+	text-indent: -9999px;
+	background-image: url("../img/nicole-dominguez.png");
+	background-repeat: no-repeat;
+	width: 570px;
+	height: 270px;
+	padding-left: $gutter;
+	background-size: 70%;
+	margin-bottom: 35px;
+	margin-top: 50px;
+	float: left;
+}
+
+h2 { 
+	font-size: 42px; 
+	line-height: 48px; 
+	margin: $gutter 0 $gutter*2;  
+
+	span {
+		color: #c7bcd1;
+		display: block;
+		font-weight: 400;
+		font-size: 28px;
+		text-align: right;
+	}
+}
+
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+
+p { margin: 0 0 20px 0; font-family: $serif; }
+p img { margin: 0; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+a:hover, a:focus { color: #000; }
+
+// Lists
+ul, ol { margin-bottom: 20px; }
+ul { 
+	list-style: none outside; 
+	padding: $gutter;
+	font-family: $serif; 
+	font-size: 20px;
+
+	li { 
+		line-height: 30px;
+		margin-bottom: 10px; 
+		color: lighten($purple, 20%);
+
+		a {
+			text-decoration: none;
+			color: lighten($teal, 20%);
+			&:hover { color: lighten($teal, 5%); }
+		}
+	}
+}
+
+// Header
+header {
+	ul {
+		padding-top: 90px;
+
+		li {
+			font-size: 22px;
+			text-align: right;
+			color: mix($offWhite, $purple, 10%);
+		}
+	}
+}
+
+.hireme {
+	padding: $gutter;
+	box-sizing: border-box;
+
+	ul {
+		width: 56%;
+		float: left;
+		padding: 0px;
+
+		li {
+			width: 48%;
+			float: left;
+			margin-right: 4%;
+			line-height: 24px;
+			margin-top: 8px;
+			margin-bottom: 24px;
+			&:nth-child(2n) { margin-right: 0; }
+
+			a:hover {
+				color: white;
+				@include transition(all .1s ease-in);
+			}
+
+			span:hover {
+				color: white;
+			}
+
+			i {
+				margin-right: 2px;
+				font-size: 18px;
+				color: mix($purple, $teal, 30%);
+				text-shadow: 0px -1px 0px darken($purple, 5%);
+			}
+			span {
+				display: block;
+				font-size: 13px;
+				color: lighten($teal, 5%);
+				text-shadow: 0px -1px 0px darken($purple, 5%);
+			}
+		}
+	}
+
+	aside {
+		width: 40%;
+		float: right;
+		font-family: $serif;
+
+		p {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		a {
+			background: $teal;
+			display: block;
+			text-align: center;
+			padding: $gutter/3;
+			font-size: 20px;
+			text-decoration: none;
+			color: $purple;
+			font-family: $sans-serif;
+			text-transform: uppercase;
+			font-weight: 700;
+			text-shadow: 0px -1px 0px lighten($teal, 10%);
+			box-shadow: 0px 3px 0px  darken($teal, 20%);
+			@include border-top-radius(5px);
+			@include border-bottom-radius(5px);
+			border: 3px solid transparent; // Safari border fix
+
+
+			&:hover {
+				text-shadow: 0px -1px 0px lighten($purple, 25%);
+				background: lighten($purple, 18%);
+				box-shadow: 0px 3px 0px lighten($purple, 10%);
+
+				top: 2px;
+				position: relative;
+ 				@include transition(all .15s ease-in);		
+ 			}
+		}
+	}
+}
+
+// Footer
+footer { 
+	color: lighten($purple, 15%);
+	text-shadow: 0px -1px 0px darken($purple, 10%); 
+	a { color: lighten($purple, 25%); text-decoration: none; 
+		&:hover { color: lighten($purple, 45%); }}
+	}
+
+// Media Queries
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	header {
+		ul {
+			padding-top: 85px;
+			li {
+				font-size: 20px;
+				line-height: 28px;
+			}
+		}
+		h1 {
+			background-size: 65%;
+			margin-bottom: 0px;
+			height: 310px;
+		}
+	}
+
+	h2 span { font-size: 24px; }
+	.hireme {
+		ul {
+			width: 56%;
+			li {
+				font-size: 20px;
+				line-height: 24px;
+				margin-bottom: 15px;
+				span { font-size: 12px; } 
+			}
+		}
+		aside {
+			width: 38%;
+			p {
+				font-size: 13px;
+				line-height: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	header {
+		h1 { 
+			width: 100%;
+			background-size: 90%;
+			height: 220px;
+			padding: 0;
+			margin: $gutter;
+		}
+		ul {
+			padding-top: $gutter;
+			li {
+				font-size: 15px;
+				line-height: 1.4em;
+			}
+		}
+	}
+
+	.hireme {
+		aside, ul {
+			width: 100%;
+			padding: 0;
+		}
+		ul li { font-size: 24px; }
+		aside {
+			width: 90%;
+			margin: 0px auto;
+			float: none;
+		}
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		.nine.columns.alpha { width: 52%  !important; }
+		.seven.columns { width: 48% !important;  }
+	}
+
+	h2 {
+		padding: $gutter $gutter*2;
+		margin-top: -5%;
+		font-size: 36px;
+		span {
+			font-size: 26px;
+			width: 95%;
+			line-height: 1.4em;
+			margin-left: 5%;
+		}
+	}
+
+	footer { padding: $gutter; }
+	.twelve ul { margin-left: 10%; }
+}
+
+@media only screen and (max-width: 479px) {
+	header {
+		h1 {
+			background-size: 100%;
+			margin: 30px 0 0 0;
+			padding: 0;
+			height: 190px;
+		}
+		ul { 
+			margin-bottom: $gutter; 
+			li { font-size: 18px; }
+		}
+	}
+
+	h2 {
+		font-size: 32px;
+		margin-top: -10%;
+		padding: $gutter 0;
+		margin-bottom: $gutter;
+		span {
+			 font-size: 26px;
+			 line-height: 1.4em;
+		}
+	}
+
+	.hireme {
+		margin: 0;
+		padding: 0;
+		ul {
+			padding: 0;
+			margin: 0;
+			margin-bottom: $gutter;
+			li {
+				width: 100%;
+				span {
+					font-size: 16px;
+				}
+			}
+		}
+		aside {
+			width: 100%;	
+			margin: 0;
+			padding: 0;
+			margin-bottom: $gutter;
+		}
+	}
+}
