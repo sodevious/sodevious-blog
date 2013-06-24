@@ -3,6 +3,7 @@ layout: post
 title:  "Let Them Find The Water"
 date:   2013-06-18 19:11:02
 categories: thoughts teaching
+alias: post/53255342273/let-them-find-the-water/index.html
 ---
 
 I really enjoy teaching people new things, but when my mom approached me to teach her how to use Illustrator/InDesign/Photoshop, I was a little standoffish. I love her dearly, but I was concerned with:

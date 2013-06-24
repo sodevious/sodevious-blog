@@ -3,6 +3,7 @@ layout: post
 title:  "Lose Yourself"
 date:   2013-05-25 19:11:02
 categories: thoughts
+alias: post/51311939944/lose-yourself/index.html
 ---
 
 Life is nothing but a series of steep rollercoaster-esque valleys and peaks — proverbial, literal or otherwise. That’s the beauty of it. Being vulnerable human beings means that we can have the best and worst moments of our lives in the same week, day, or hour.

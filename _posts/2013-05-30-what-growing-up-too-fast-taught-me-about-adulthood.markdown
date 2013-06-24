@@ -3,6 +3,7 @@ layout: post
 title:  "What Growing Up Too Fast Taught Me About Adulthood"
 date:   2013-05-30 19:11:02
 categories: thoughts growingup
+alias: post/51771037643/what-growing-up-too-fast-taught-me-about-adulthood/index.html
 ---
 
 In the past two weeks, I turned nineteen and quit my good grown up job. I’ve always been more mature for my age, and most definitely grew up too fast - by choice. I like the adult that I am, much more than my peer counterparts. Independence and freedom, both in my personal and professional life is so important to me, and I stopped at nothing to make those things come true.

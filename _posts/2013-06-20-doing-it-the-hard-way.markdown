@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Doing It "The Hard Way" Since '94"
+title:  "Doing It 'The Hard Way' Since '94"
 date:   2013-06-20 19:11:02
 categories: thoughts
+alias: post/53452799027/doing-it-the-hard-way-since-94/index.html
 ---
 
 Growing up in my earliest years, my father[^1] would always present decisions to me with: “Do you want it the **easy way or the hard way**?”
