@@ -34,16 +34,12 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 {
-  margin-bottom: 1em; }
+  background-color: #F7F6E4;
+  color: #4A4B50;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 p {
   margin: 1em 0; }
@@ -58,9 +54,10 @@ a:visited {
   color: #a0a; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #79b7b0;
+  color: #6a908a;
   font-weight: normal;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -0.04em;
   font-weight: 300; }
 
@@ -72,6 +69,15 @@ strong {
 
 small {
   font-size: 80%; }
+
+header {
+  background: #635063;
+  border-bottom: 5px solid #7f677f;
+  margin-bottom: 40px; }
+  header img {
+    width: 100%;
+    max-width: 310px;
+    padding: 20px; }
 
 ul.posts {
   list-style-type: none;

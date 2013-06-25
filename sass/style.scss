@@ -8,39 +8,39 @@
 // Variables
 $offWhite: #e3e3e3;
 $offBlack: #1a1a1a;
-$purple: #2f2b3f;
-$teal: #79b7b0;
+$teal: #6a908a;
+$plum: #635063;
 
 $gutter: 25px;
 
-$sans-serif: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
-$serif: 'Bitter', Copse, Cambria, Georgia, serif;
+$sans-serif: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: "kepler-std", "Bitter", Baskerville, Georgia, serif;
 
 @import 'layout.scss';
 @import 'bourbon/bourbon';
 
-// Basics
+// General
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+	background-color: #F7F6E4;
+	color: #4A4B50;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: $sans-serif;
+	-webkit-font-smoothing: antialiased; 
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
+a { color: #00a; }
+a:hover { color: #000; }
 a:visited { color: #a0a; }
+
 // Typography
 h1, h2, h3, h4, h5, h6 {
 	color: $teal;
 	font-weight: normal; 
+	font-size: 100%;
 	font-family: $sans-serif;
 	letter-spacing: -0.04em;
 	font-weight: 300;
@@ -49,6 +49,22 @@ h1, h2, h3, h4, h5, h6 {
 em { font-style: italic; }
 strong { font-weight: bold; }
 small { font-size: 80%; }
+
+// Header
+
+header {
+	background: #635063;
+	border-bottom: 5px solid #7f677f;
+	margin-bottom: 40px;
+
+	img {
+		width: 100%;
+		max-width: 310px;
+		padding: 20px;
+	}
+}
+
+
 
 
 ul.posts {
