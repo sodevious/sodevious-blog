@@ -92,7 +92,7 @@ header {
 section {
   font-size: 18px;
   text-align: justify;
-  width: 65%;
+  width: 75%;
   margin: 3em auto 2em;
   line-height: 1.5em; }
 
@@ -138,8 +138,23 @@ hr {
   margin: 0px;
   display: inline-block; }
 
-.footer p {
-  font-size: 13px; }
+footer {
+  color: #666;
+  width: 75%;
+  text-align: center;
+  margin: 1em auto 2em;
+  border-top: 1px solid #d0dcda;
+  overflow: hidden; }
+  footer p {
+    font-size: 13px;
+    padding: 0;
+    text-align: center; }
+  footer .meta {
+    float: left;
+    width: 32%;
+    margin-right: 1%; }
+    footer .meta:last-child {
+      margin-right: 0px; }
 
 .twitter-tweet {
   text-align: center;
@@ -157,11 +172,6 @@ ul.posts span {
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%; }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
 .site {
   font-size: 115%;
   text-align: justify;
@@ -193,16 +203,6 @@ ul.posts span {
 .site .meta {
   color: #aaa; }
 
-.site .footer {
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden; }
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em; }
-
 .site .footer .contact a {
   color: #8085C1; }
 
@@ -214,11 +214,6 @@ ul.posts span {
 .site .footer .rss img {
   border: 0; }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 /* standard */
 #post pre {
   border: 1px solid #ddd;
@@ -244,3 +239,15 @@ ul.posts span {
 
 #post pre.terminal code {
   background-color: #333; }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  section, footer {
+    width: 90%; } }
+@media only screen and (max-width: 767px) {
+  section, footer {
+    width: 95%;
+    margin: 1em auto 1em; } }
+@media only screen and (max-width: 479px) {
+  footer .meta {
+    width: 100%;
+    background: red; } }

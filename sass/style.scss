@@ -1,6 +1,6 @@
 /*
 * Copyright 2013, Nicole Dominguez
-* Tools used: Skeleton, Github, Adobe Creative Cloud, Sublime Text 2
+* Tools used: Skeleton, Bourbon, Jeykll, Github, Adobe Creative Cloud, Sublime Text 2
 */
 
 // * { background: rgba(255,255,255,0.1);}
@@ -64,8 +64,7 @@ p {
 }
 
 
-// Header
-
+// Ya know, styles n shit
 header {
 	background: #635063;
 	border-bottom: 5px solid #7f677f;
@@ -80,7 +79,7 @@ header {
 section {
 	font-size: 18px;
 	text-align: justify;
-	width: 65%;
+	width: 75%;
 	margin: 3em auto 2em;
 	line-height: 1.5em;
 }
@@ -120,9 +119,9 @@ sup a {
 }
 
 hr {
-background: #c1d2cf;
-height: 1px;
-border: 1px;
+	background: #c1d2cf;
+	height: 1px;
+	border: 1px;
 }
 
 .footnotes {
@@ -137,15 +136,33 @@ border: 1px;
 	}
 }
 
-.footer p {
-	font-size: 13px;
-}
+footer {
+	color: #666;
+	width: 75%;
+	text-align: center;
+	margin: 1em auto 2em;
+	border-top: 1px solid lighten($teal, 35%);
+	overflow: hidden;
 
+	p { font-size: 13px; padding: 0; text-align: center; }
+	.meta {
+		float: left;
+		width: 32%;
+		margin-right: 1%;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}
 
 .twitter-tweet {
 	text-align: center;
 	margin: 0px auto !important;
 }
+
+
+
+
 
 ul.posts {
   list-style-type: none;
@@ -161,12 +178,6 @@ ul.posts span {
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
 
 .site {
   font-size: 115%;
@@ -207,17 +218,6 @@ ul.posts span {
   color: #aaa;
 }
 
-.site .footer {
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
 
 .site .footer .contact a {
   color: #8085C1;
@@ -232,12 +232,6 @@ ul.posts span {
 .site .footer .rss img {
   border: 0;
 }
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 
 /* standard */
 #post pre {
@@ -274,13 +268,21 @@ ul.posts span {
 
 // Media Queries
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+	section, footer {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 767px) {
-	
+	section, footer {
+		width: 95%;
+		margin: 1em auto 1em;
+	}
 }
 
 @media only screen and (max-width: 479px) {
-	
+	footer .meta { 
+		width: 100%; background: red; 
+		p { padding: 0; }
+	}
 }
