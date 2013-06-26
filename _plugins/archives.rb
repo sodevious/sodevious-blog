@@ -13,8 +13,8 @@ module Jekyll
       @site = site
       @base = site.source
       # I simply write the archives.html file in the _site root
-      @dir = "/archives"
-      @name = "index.html"
+      @dir = "/"
+      @name = "archives.html"
       
       self.process(@name)
       self.read_yaml(File.join(@base, '_layouts'), 'archives.html')
@@ -24,11 +24,11 @@ module Jekyll
       self.data['posts_by_month'] = posts_by_month
     end
   end
-
-
+ 
+ 
   class ArchiveGenerator < Generator
     safe true
-
+ 
     def group_by_month(posts)
       months = []
       posts_by_month = {}
@@ -43,17 +43,17 @@ module Jekyll
       end
       return [months,posts_by_month]
     end
-
+ 
     def generate(site)
       archive_data = group_by_month(site.posts)
       months = archive_data[0]
       posts_by_month = archive_data[1]
-
+ 
       archives = ArchivePage.new(site, months, posts_by_month)
       archives.render(site.layouts, site.site_payload)
       archives.write(site.dest)
       site.pages << archives
     end
   end
-
+ 
 end
