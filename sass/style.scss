@@ -10,11 +10,12 @@ $offWhite: #e3e3e3;
 $offBlack: #1a1a1a;
 $teal: #6a908a;
 $plum: #635063;
+$pink: #ff6e83;
 
 $gutter: 25px;
 
 $sans-serif: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: "kepler-std", "Bitter", Baskerville, Georgia, serif;
+$serif: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
 
 @import 'layout.scss';
 @import 'bourbon/bourbon';
@@ -24,17 +25,14 @@ $serif: "kepler-std", "Bitter", Baskerville, Georgia, serif;
 body {
 	background-color: #F7F6E4;
 	color: #4A4B50;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-align: center;
 	font-family: $sans-serif;
 	-webkit-font-smoothing: antialiased; 
 }
 
-p { margin: 1em 0; }
-
-a { color: #00a; }
+a { color: $pink; text-decoration: none; }
 a:hover { color: #000; }
-a:visited { color: #a0a; }
 
 // Typography
 h1, h2, h3, h4, h5, h6 {
@@ -45,10 +43,26 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.04em;
 	font-weight: 300;
 }
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	a {
+		color: darken($plum, 2%);
+		text-decoration: none;
+		&:hover { color: lighten($plum, 13%); }
+	}
+}
 
 em { font-style: italic; }
 strong { font-weight: bold; }
 small { font-size: 80%; }
+p {
+	font-size: 21px;
+	line-height: 28px;
+	margin: 20px 0px 20px 30px;
+	padding: 0;
+}
+
 
 // Header
 
@@ -56,7 +70,6 @@ header {
 	background: #635063;
 	border-bottom: 5px solid #7f677f;
 	margin-bottom: 40px;
-
 	img {
 		width: 100%;
 		max-width: 310px;
@@ -64,8 +77,75 @@ header {
 	}
 }
 
+section {
+	font-size: 18px;
+	text-align: justify;
+	width: 65%;
+	margin: 3em auto 2em;
+	line-height: 1.5em;
+}
+
+aside {
+	font-family: $serif;
+	margin-bottom: $gutter*2;
+	font-size: 13px;
+
+	span {
+		padding-right: 8px;
+	}
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: disc;
+	width: 80%;
+	font-size: 1.1em;
+	margin: 0px auto;
+
+	li p {
+		padding: 0px;
+		margin: 0 0 15px 0;
+	}
+}
+
+sup a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: top;
+	color: $teal;
+	padding-bottom: 8px;
+	padding-left: 1px;
+}
+
+hr {
+background: #c1d2cf;
+height: 1px;
+border: 1px;
+}
+
+.footnotes {
+	a { font-size: 14px; }
+	ol { padding: 10px; }
+
+	p {
+		font-size: 15px;
+		font-family: $sans-serif;
+		margin: 0px;
+		display: inline-block;
+	}
+}
+
+.footer p {
+	font-size: 13px;
+}
 
 
+.twitter-tweet {
+	text-align: center;
+	margin: 0px auto !important;
+}
 
 ul.posts {
   list-style-type: none;
@@ -128,7 +208,6 @@ ul.posts span {
 }
 
 .site .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;

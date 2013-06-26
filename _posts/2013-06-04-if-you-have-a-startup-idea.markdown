@@ -2,7 +2,7 @@
 layout: post
 title:  "If you have a startup idea..."
 date:   2013-06-04 19:11:02
-categories: thoughts startups
+categories: "thoughts,&nbsp;startups"
 alias: post/52181796302/if-you-have-a-startup-idea/index.html
 ---
 

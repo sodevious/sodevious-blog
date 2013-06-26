@@ -2,7 +2,7 @@
 layout: post
 title:  "Hackathons Should Not Be About Business"
 date:   2013-06-02 19:11:02
-categories: thoughts hackathons
+categories: "thoughts,&nbsp;hackathons"
 alias: post/51986098138/hackathons-should-not-be-about-business/index.html
 ---
 

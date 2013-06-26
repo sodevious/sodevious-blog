@@ -2,7 +2,7 @@
 layout: post
 title:  "Day One"
 date:   2013-06-10 19:11:02
-categories: thoughts freelance
+categories: "thoughts,&nbsp;freelance"
 alias: post/52680526434/day-one/index.html
 ---
 

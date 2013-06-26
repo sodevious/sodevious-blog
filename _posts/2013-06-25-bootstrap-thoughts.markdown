@@ -2,7 +2,7 @@
 layout: post
 title:  "Bootstrap: Thoughts, Rants and Defending My Stance"
 date:   2013-06-25 19:11:02
-categories: thoughts development
+categories: "thoughts,&nbsp;development"
 ---
 
 It started with an innocent tweet.

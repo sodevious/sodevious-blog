@@ -2,7 +2,7 @@
 layout: post
 title:  "When A Hackathon Becomes Cheap, Crowdsourced Labor"
 date:   2013-06-12 19:11:02
-categories: thoughts hackathons
+categories: "thoughts,&nbsp;hackathons"
 alias: post/52809921406/when-a-hackathon-becomes-cheap-crowdsourced-labor/index.html
 ---
 

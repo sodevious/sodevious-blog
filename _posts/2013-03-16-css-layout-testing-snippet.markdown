@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Layout Testing Snippet"
 date:   2013-03-16 19:11:02
-categories: protip css snippet
+categories: "protip,&nbsp;css,&nbsp;snippet"
 alias: post/51406011760/css-layout-testing-snippet/index.html
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Let Them Find The Water"
 date:   2013-06-18 19:11:02
-categories: thoughts teaching
+categories: "thoughts,&nbsp;teaching"
 alias: post/53255342273/let-them-find-the-water/index.html
 ---
 

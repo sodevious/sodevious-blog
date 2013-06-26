@@ -2,7 +2,7 @@
 layout: post
 title:  "What Growing Up Too Fast Taught Me About Adulthood"
 date:   2013-05-30 19:11:02
-categories: thoughts growingup
+categories: "thoughts,&nbsp;growingup"
 alias: post/51771037643/what-growing-up-too-fast-taught-me-about-adulthood/index.html
 ---
 

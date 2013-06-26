@@ -36,22 +36,17 @@ table {
 body {
   background-color: #F7F6E4;
   color: #4A4B50;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
-p {
-  margin: 1em 0; }
-
 a {
-  color: #00a; }
+  color: #ff6e83;
+  text-decoration: none; }
 
 a:hover {
   color: #000; }
-
-a:visited {
-  color: #a0a; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #6a908a;
@@ -60,6 +55,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -0.04em;
   font-weight: 300; }
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold; }
+  h2 a {
+    color: #5d4b5d;
+    text-decoration: none; }
+    h2 a:hover {
+      color: #886e88; }
 
 em {
   font-style: italic; }
@@ -70,6 +74,12 @@ strong {
 small {
   font-size: 80%; }
 
+p {
+  font-size: 21px;
+  line-height: 28px;
+  margin: 20px 0px 20px 30px;
+  padding: 0; }
+
 header {
   background: #635063;
   border-bottom: 5px solid #7f677f;
@@ -78,6 +88,62 @@ header {
     width: 100%;
     max-width: 310px;
     padding: 20px; }
+
+section {
+  font-size: 18px;
+  text-align: justify;
+  width: 65%;
+  margin: 3em auto 2em;
+  line-height: 1.5em; }
+
+aside {
+  font-family: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
+  margin-bottom: 50px;
+  font-size: 13px; }
+  aside span {
+    padding-right: 8px; }
+
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: disc;
+  width: 80%;
+  font-size: 1.1em;
+  margin: 0px auto; }
+  ul li p {
+    padding: 0px;
+    margin: 0 0 15px 0; }
+
+sup a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #6a908a;
+  padding-bottom: 8px;
+  padding-left: 1px; }
+
+hr {
+  background: #c1d2cf;
+  height: 1px;
+  border: 1px; }
+
+.footnotes a {
+  font-size: 14px; }
+.footnotes ol {
+  padding: 10px; }
+.footnotes p {
+  font-size: 15px;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  display: inline-block; }
+
+.footer p {
+  font-size: 13px; }
+
+.twitter-tweet {
+  text-align: center;
+  margin: 0px auto !important; }
 
 ul.posts {
   list-style-type: none;
@@ -128,7 +194,6 @@ ul.posts span {
   color: #aaa; }
 
 .site .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;

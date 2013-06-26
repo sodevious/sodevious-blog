@@ -3,11 +3,55 @@ layout: default
 title: sodevious.me
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
+<section class="posts">
+	<!-- This loops through the paginated posts -->
+	{% for post in paginator.posts %}
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<div class="content">
+				{{ post.content }}
+			</div>
+			<aside>
+				<span class="date">{{ site.time | date_to_long_string }}</span> | <span>{{ post.categories }}</span>
+			</aside>
+	{% endfor %}
+</section>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+
+<!-- 
+<section class="content">
+    {% for post in site.posts %}
+
+	<article>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p class="meta">{{ post.date | date_to_string }}</p>
+<div id="post">
+{{ post.content }}
+</div>
+
+	</article>
+    {% endfor %}
+
+
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</section>
+
+-->
