@@ -2,7 +2,7 @@
 layout: default
 title: sodevious.me
 ---
-
+<div class="container">
 <section class="posts">
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
@@ -11,7 +11,7 @@ title: sodevious.me
 				{{ post.content }}
 			</div>
 			<aside>
-				<span class="date">{{ site.time | date_to_long_string }}</span> | <span>{{ post.categories }}</span>
+				<span class="date">{{ post.date | date_to_long_string }}</span> | <span>{{ post.categories }}</span>
 			</aside>
 	{% endfor %}
 </section>
@@ -29,4 +29,5 @@ title: sodevious.me
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
+</div>
 </div>

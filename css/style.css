@@ -2,7 +2,7 @@
 @import url(../css/normalize.css);
 /*
 * Copyright 2013, Nicole Dominguez
-* Tools used: Skeleton, Bourbon, Jeykll, Github, Adobe Creative Cloud, Sublime Text 2
+* Tools used: Skeleton, Bourbon, Neat, Jeykll, Github, Adobe Creative Cloud, Sublime Text 2
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -34,10 +34,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #F7F6E4;
   color: #4A4B50;
-  font-size: 1em;
+  font-size: 12px;
   text-align: center;
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
@@ -54,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-size: 100%;
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   font-weight: 300; }
 
 h2 {
@@ -81,28 +86,39 @@ p {
   margin: 20px 0px 20px 30px;
   padding: 0; }
 
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+
 header {
   background: #635063;
   border-bottom: 5px solid #7f677f;
   margin-bottom: 40px; }
   header img {
     width: 100%;
-    max-width: 310px;
+    max-width: 370px;
     padding: 20px; }
 
 section {
-  font-size: 18px;
-  text-align: justify;
-  width: 75%;
-  margin: 3em auto 2em;
+  font-size: 1.6em;
+  text-align: left;
+  margin: 1em auto 2em;
   line-height: 1.5em; }
 
 aside {
   font-family: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
-  margin-bottom: 50px;
-  font-size: 13px; }
+  margin-bottom: 2em;
+  font-size: 0.6em; }
   aside span {
-    padding-right: 8px; }
+    padding-right: 8px;
+    padding-left: 8px; }
 
 ul {
   margin-left: 0px;
@@ -113,7 +129,8 @@ ul {
   margin: 0px auto; }
   ul li p {
     padding: 0px;
-    margin: 0 0 15px 0; }
+    margin: 0 0 15px 0;
+    font-size: 0.9em; }
 
 sup a {
   text-decoration: none;
@@ -134,7 +151,6 @@ hr {
 .footnotes ol {
   padding: 10px; }
 .footnotes p {
-  font-size: 15px;
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px;
   display: inline-block; }
@@ -147,7 +163,7 @@ footer {
   border-top: 1px solid #d0dcda;
   overflow: hidden; }
   footer p {
-    font-size: 13px;
+    font-size: 1.3em;
     padding: 0;
     text-align: center; }
   footer .meta {
@@ -156,6 +172,9 @@ footer {
     margin-right: 1%; }
     footer .meta:last-child {
       margin-right: 0px; }
+
+.pagination {
+  font-size: 1.3em; }
 
 .twitter-tweet {
   text-align: center;
@@ -243,13 +262,22 @@ ul.posts span {
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   section, footer {
-    width: 90%; } }
+    width: 90%; }
+
+  header {
+    margin-bottom: 2em; } }
 @media only screen and (max-width: 767px) {
   section, footer {
     width: 95%;
-    margin: 1em auto 1em; } }
+    margin: 1em auto 1em; }
+
+  header {
+    margin-bottom: 1em; } }
 @media only screen and (max-width: 479px) {
   footer .meta {
     width: 100%; }
     footer .meta p {
-      padding: 0; } }
+      padding: 0; }
+
+  header {
+    margin-bottom: 0; } }
