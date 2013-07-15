@@ -1,9 +1,9 @@
 /*
 * Copyright 2013, Nicole Dominguez
-* Tools used: Skeleton, Bourbon, Jeykll, Github, Adobe Creative Cloud, Sublime Text 2
+* Tools used: Skeleton, Bourbon, Neat, Jeykll, Github, Adobe Creative Cloud, Sublime Text 2
 */
 
-// * { background: rgba(255,255,255,0.1);}
+// * { background: rgba(0,0,0,0.1);}
 
 // Variables
 $offWhite: #e3e3e3;
@@ -12,23 +12,24 @@ $teal: #6a908a;
 $plum: #635063;
 $pink: #ff6e83;
 
-$gutter: 25px;
+$gutter: 1em;
 
 $sans-serif: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
 
 @import 'layout.scss';
 @import 'bourbon/bourbon';
+@import 'neat/neat';
 @import '../css/normalize.css';
 
 // General
 body {
 	background-color: #F7F6E4;
 	color: #4A4B50;
-	font-size: 1em;
+	font-size: 12px;
 	text-align: center;
 	font-family: $sans-serif;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 a { color: $pink; text-decoration: none; }
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; 
 	font-size: 100%;
 	font-family: $sans-serif;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.02em;
 	font-weight: 300;
 }
 h2 {
@@ -65,32 +66,34 @@ p {
 
 
 // Ya know, styles n shit
+.container { @include outer-container; }
+
 header {
 	background: #635063;
 	border-bottom: 5px solid #7f677f;
 	margin-bottom: 40px;
 	img {
 		width: 100%;
-		max-width: 310px;
+		max-width: 370px;
 		padding: 20px;
 	}
 }
 
 section {
-	font-size: 18px;
-	text-align: justify;
-	width: 75%;
-	margin: 3em auto 2em;
+	font-size: 1.6em;
+	text-align: left;
+	margin: 1em auto 2em;
 	line-height: 1.5em;
 }
 
 aside {
 	font-family: $serif;
 	margin-bottom: $gutter*2;
-	font-size: 13px;
+	font-size: 0.6em;
 
 	span {
 		padding-right: 8px;
+		padding-left: 8px;
 	}
 }
 
@@ -105,6 +108,8 @@ ul {
 	li p {
 		padding: 0px;
 		margin: 0 0 15px 0;
+
+		font-size: 0.9em;
 	}
 }
 
@@ -129,7 +134,6 @@ hr {
 	ol { padding: 10px; }
 
 	p {
-		font-size: 15px;
 		font-family: $sans-serif;
 		margin: 0px;
 		display: inline-block;
@@ -144,7 +148,7 @@ footer {
 	border-top: 1px solid lighten($teal, 35%);
 	overflow: hidden;
 
-	p { font-size: 13px; padding: 0; text-align: center; }
+	p { font-size: 1.3em; padding: 0; text-align: center; }
 	.meta {
 		float: left;
 		width: 32%;
@@ -154,6 +158,10 @@ footer {
 		}
 	}
 }
+
+.pagination { 
+ font-size: 1.3em; 
+ }
 
 .twitter-tweet {
 	text-align: center;
@@ -271,6 +279,8 @@ ul.posts span {
 	section, footer {
 		width: 90%;
 	}
+	header { margin-bottom: 2em; }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -278,6 +288,8 @@ ul.posts span {
 		width: 95%;
 		margin: 1em auto 1em;
 	}
+		header { margin-bottom: 1em; }
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -285,4 +297,6 @@ ul.posts span {
 		width: 100%;
 		p { padding: 0; }
 	}
+			header { margin-bottom: 0; }
+
 }
