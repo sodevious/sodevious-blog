@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Response to: Going Above and Beyond by @jalcine"
+title:  "A Response to: Going Above and Beyond by @jackyalcine"
 date:   2013-07-29 19:11:02
 categories: code
 ---
