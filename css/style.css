@@ -83,8 +83,18 @@ small {
 p {
   font-size: 21px;
   line-height: 28px;
-  margin: 20px 0px 20px 30px;
+  margin: 20px 0px 20px 2em;
   padding: 0; }
+
+blockquote {
+  margin-top: 1.6em;
+  margin-left: 2em;
+  border-left: 0.5em solid #c1d2cf; }
+  blockquote p {
+    font-size: 14px;
+    font-family: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
+    line-height: 22px;
+    font-style: italic; }
 
 .container {
   *zoom: 1;
