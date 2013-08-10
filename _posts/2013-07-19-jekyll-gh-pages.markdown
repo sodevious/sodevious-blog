@@ -15,6 +15,6 @@ At first, Jekyll seems kind of daunting, but once you start your local server an
 
 * To get the custom domains working, you have to point your domain to the GitHub Pages IP, which is all laid out in their wonderful [documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages). And then in your repo, create a file called "*CNAME*" with the url of your domain, no www. Here's [mine](https://github.com/sodevious/sodevious-blog/blob/master/CNAME).
 
-* To get it all going, crete a branch called gh-pages and push everything there. It will live at *yourusername*.github.io/*your-repo*.
+* To get it all going, create a branch called gh-pages and push everything there. It will live at *yourusername*.github.io/*your-repo*.
 
 Huzzah! Profit! Prosper! Be Merry!
