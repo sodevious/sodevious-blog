@@ -7,11 +7,11 @@ categories: thoughts
 
 I am a young woman. I believe that women and men are simply equal human beings.
 
-New Yorker Bryan Goldberg recently launched a publication called Bustle.com[^1] that aims to "transform women’s publishing". After taking a look at it, I was left extremely dissapointed. This site wasn't offering me any kind of new perspective, and in fact I was insulted by it's offerings. I'm a woman, so why does that mean that I care about celebrities?[^2]
+New Yorker Bryan Goldberg [recently launched a publication](http://pandodaily.com/2013/08/13/ive-raised-6-5-million-to-build-and-grow-my-new-company-bustle-com/) called [Bustle.com](http://www.bustle.com/)[^1] that aims to "transform women’s publishing". After taking a look at it, I was left extremely dissapointed. This site wasn't offering me any kind of new perspective, and in fact I was insulted by it's offerings. I'm a woman, so why does that mean that I care about celebrities?
 
 As a lady in the tech industry, I'm insulted that publications like TechCrunch, Mashable, and the Verge are referred to as being "male" focused. Do we really live in a society where we still separate men, women and their interests into stereotypical silos?
 
-> Maybe we need a destination that is powered by the young women who currently occupy the bottom floors at major publishing houses.
+> "Maybe we need a destination that is powered by the young women who currently occupy the bottom floors at major publishing houses."
 
 Frankly, paid "young woman" writers are not enough for me to consider this a woman powered publication. At the end of the day, a man does not understand the struggle and prejudices that I face every single day. How can you represent me? How do you know what I want to read?
 
@@ -29,7 +29,7 @@ Should a CEO that is not a parent run a company that create products for babies?
 > 
 > You’re damn right this is a feminist publication.
 
-Oh really? **Really really?**  * rolls eyes * 
+Oh really? **Really really?**
 
 #### A Sad Truth
 
@@ -37,6 +37,4 @@ Honestly, this should have been a story of how a woman saw a problem she faced i
 
 
 
-[^1]: "What about a site that takes an introspective look at the celebrity world…" -- I’ve raised $6.5 million to build and grow my new company: Bustle.com
-
-[^2]: Bustle.com
+[^1]: "What about a site that takes an introspective look at the celebrity world…" -- [I’ve raised $6.5 million to build and grow my new company: Bustle.com](http://pandodaily.com/2013/08/13/ive-raised-6-5-million-to-build-and-grow-my-new-company-bustle-com/)
