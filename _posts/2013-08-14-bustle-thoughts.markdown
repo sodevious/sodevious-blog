@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Thoughts on Bustle.Com, A "Feminist" Publication for Women"
+title:  "My Thoughts on Bustle.Com, A So Called Feminist Publication for Women"
 date:   2013-08-14 19:11:02
 categories: thoughts
 ---
