@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.3em;
   font-weight: bold; }
   h2 a {
     color: #5d4b5d;
@@ -81,9 +81,9 @@ small {
   font-size: 80%; }
 
 p {
-  font-size: 1em;
-  line-height: 1.6em;
-  margin: 1em 0px 1em 0px;
+  font-size: 21px;
+  line-height: 28px;
+  margin: 20px 0px 20px 0px;
   padding: 0; }
 
 blockquote {
@@ -92,7 +92,7 @@ blockquote {
   border-left: 0.5em solid #c1d2cf; }
   blockquote p {
     font-size: 14px;
-    font-family: "Adelle", "Bitter", Baskerville, Georgia, serif;
+    font-family: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
     line-height: 22px;
     font-style: italic; }
 
@@ -120,17 +120,10 @@ section {
   font-size: 1.6em;
   text-align: left;
   margin: 1em auto 2em;
-  display: block;
-  float: left;
-  margin-right: 1.61735%;
-  width: 83.06378%;
-  margin-left: 8.46811%;
   line-height: 1.5em; }
-  section:last-child {
-    margin-right: 0; }
 
 aside {
-  font-family: "Adelle", "Bitter", Baskerville, Georgia, serif;
+  font-family: "Kepler Std", "Bitter", Baskerville, Georgia, serif;
   margin-bottom: 2em;
   font-size: 0.6em; }
   aside span {
