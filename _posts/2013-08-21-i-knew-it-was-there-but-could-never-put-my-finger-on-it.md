@@ -28,7 +28,7 @@ When I fought with my mom, I'd hear things like "If you aren't nice to people th
 > Please Nicole you need to work on your relations with others....For now, lets love everybody specially love people that are closest to us. Let's be more considerate and empathetic with other people's sufferings.
 > Those around me tried to help; I have so many emails from my grandmother telling me that I had to work on my communication skills, etc. At the time, I was [so focused on my work](http://www.theverge.com/2013/6/6/4399468/autism-tech-jobs-unemployment-crisis-solution) that I didn't internalize what was going on around me: I was destroying relationships with people that loved me.
 
----
+
 
 Five months ago, I discovered a [TED talk by Temple Grandin](http://www.ted.com/talks/temple_grandin_the_world_needs_all_kinds_of_minds.html). I remember the exact moment when I realized that I was not alone. I was at work, listening to various podcasts and TED talks as I sometimes did when music didn't appease me. I had shrunk the video to something like 50%, and moved it to the corner of my screen while working on developing a prototype for a web app. I started crying. I wasn't sad, but relieved. I was glad that other people shared the parts of me that were more than just "different". 
 

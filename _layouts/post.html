@@ -9,7 +9,9 @@ layout: default
 	</div>
 
 	<aside>
-		<span class="date">{{ page.date | date_to_string }}</span> <br />
+		<span>*</span> Nicole published this on {{ page.date | date: "%B %e, %Y"  }} and it's probably about her {{ page.categories }}
 	</aside>
+
+	<a href="/archives/"><span>&#8592;</span>&nbsp;Back to all the things!</a>
 </section>
 
