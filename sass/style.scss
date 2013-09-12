@@ -95,16 +95,14 @@ blockquote {
 header {
 	background: #635063;
 	border-bottom: 5px solid #7f677f;
-	//margin-bottom: 40px;
 
 	h1 {
 		font-size: 2em;
 		color: lighten($plum, 40%);
-		//text-align: left;
-
-font-weight: bold;
+		font-weight: bold;
 		padding: $gutter;
 	}
+
 	img {
 		width: 100%;
 		max-width: 370px;
@@ -115,7 +113,7 @@ font-weight: bold;
 section {
 	font-size: 1.6em;
 	text-align: left;
-	margin: 3em auto 2em;
+	margin: 2em auto 2em;
 	line-height: 1.5em;
 	@include span-columns(10); 
 	@include shift(1);
@@ -228,15 +226,22 @@ footer {
 
 // Media Queries
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	header { margin-bottom: 2em; }
+
 }
 
 @media only screen and (max-width: 767px) {
-	header { margin-bottom: 1em; }
+	footer .meta { width: 100%; }
+
+	.pagination .previous, .pagination .next {
+		width: 100%;
+		display: block;
+		margin: 1em 0;
+
+	}
 }
 
 @media only screen and (max-width: 479px) {
-	header { margin-bottom: 0; }
+
 }
 
 

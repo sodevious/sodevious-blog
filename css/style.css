@@ -131,7 +131,7 @@ header {
 section {
   font-size: 1.6em;
   text-align: left;
-  margin: 3em auto 2em;
+  margin: 2em auto 2em;
   line-height: 1.5em;
   display: block;
   float: left;
@@ -230,15 +230,14 @@ footer {
   text-align: center;
   margin: 0px auto !important; }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  header {
-    margin-bottom: 2em; } }
 @media only screen and (max-width: 767px) {
-  header {
-    margin-bottom: 1em; } }
-@media only screen and (max-width: 479px) {
-  header {
-    margin-bottom: 0; } }
+  footer .meta {
+    width: 100%; }
+
+  .pagination .previous, .pagination .next {
+    width: 100%;
+    display: block;
+    margin: 1em 0; } }
 .snapchat img {
   margin-bottom: 2em;
   width: 100%;
