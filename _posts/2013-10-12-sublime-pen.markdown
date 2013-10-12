@@ -5,7 +5,7 @@ date: 2013-10-12
 categories: code
 ---
 
-With tools like [Codepen](http://codepen.io/), and [Sassmeister](http://sassmeister.com/) you can have your CSS/Sass side by side with your code. Earlier today, I saw a tweet asking for the same thing at [#sassconf](https://twitter.com/SassConf), but with [Sublime Text](http://www.sublimetext.com/2). Then I was like, wait that's how my dev environment works.
+With tools like [Codepen](http://codepen.io/), and [Sassmeister](http://sassmeister.com/) you can have your CSS/Sass side by side with your code. Earlier today, I [saw a tweet](https://twitter.com/jessabean/status/389102181225598976) asking for the same thing at [#sassconf](https://twitter.com/SassConf), but with [Sublime Text](http://www.sublimetext.com/2). Then I was like, wait that's how my dev environment works.
 
 ![Sublime Screenie](/files/sublimepen.png "Sublime Screenie")
 
