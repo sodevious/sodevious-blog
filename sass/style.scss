@@ -31,7 +31,6 @@ body {
 	text-align: center;
 	font-family: $sans-serif;
 	-webkit-font-smoothing: antialiased;
-
 }
 
 a { color: mix($pink, $plum, 80%); text-decoration: none; }
@@ -57,8 +56,6 @@ h2 {
 	}
 }
 
-
-
 h4 {
 	margin-bottom: 0px;
 	margin-top: 2em;
@@ -74,6 +71,9 @@ p {
 	line-height: 1.6em;
 	margin: $gutter 0px $gutter 0px;
 	padding: 0;
+	img {
+		width: 100%;
+	}
 }
 blockquote {
 	margin: 2em 0 2em 1em;
