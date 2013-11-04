@@ -1,4 +1,6 @@
 name: sodevious.me
+description: Nicole Dominguez's Blog
+url: http://sodevious.me
 pygments: true
 timezine: America/New_York
 permalink: /:year/:title
