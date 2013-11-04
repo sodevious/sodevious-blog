@@ -4,4 +4,4 @@ url: http://sodevious.me
 pygments: true
 timezine: America/New_York
 permalink: /:year/:title
-paginate: 2
+paginate: 4
